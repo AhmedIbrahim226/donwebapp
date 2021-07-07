@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="/css/sett.css">
+    <title> Life Savers</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row align-items-center justify-content-md-between top-bar">
+                <div class="col-12 col-md-2 logo">
+                   <i class="fas fa-quote-right txt-orange"></i>LiFe SaVeRs
+                </div>
+                <div class="col-12 col-md-8">
+                    <nav>
+                         <ul class="d-flex justify-content-center justify-content-md-end">
+                                <li><a href="/">Home</a></li>
+            
+                                
+                                 <li class="menu">
+                                    <a href="D%20H.html">Donation Hostspots</a>
+                                <ul class="submenu">
+                                        
+                                 <li><a href="my%20rr.html">My Requests</a></li>
+                        
+                                    </ul>
+                                
+                                </li>
+                                 
+                                 <li class="menu">
+                                    <a href="">Settings</a>
+                                <ul class="submenu">
+
+                                 <li><a href="">Email and Password</a></li>
+                        
+                                    </ul>
+                                
+                                </li>   
+                                       <li><a href="about%20us.html">About Us</a></li>
+                                <li><a href="#">Log Out</a></li>
+                            </ul>
+                    </nav>
+                </div>
+            </div>
+           <html><head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script><style>.register{
+    background: -webkit-linear-gradient(left, #af3135, #d94141);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #423938;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #cc0033;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #cc0033;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #cc0036;
+    border: 2px solid #cc0000;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #57494b;
+}</style></head><body><div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Gu0Pq5VvyxKBUuiiT02Tcem7_LrE6sw8xBmnVKaOhqOZeiwYMSET2tPSO8azTJtzAx8&amp;usqp=CAU" alt="">
+                        <h3>Current User</h3>
+                        <p>We are happy to help you</p>
+                      
+                    </div>
+                    <div class="col-md-9 register-right">
+                        
+                        
+                         <div class="B" style=" font-family: cursive;font-size: 13px;">
+                                                      
+                                      <form action="" method="POST" class="col-6" style="margin-left: 24%;">
+                    <div class="form-group">
+                        <label for="age1">Age:</label>
+                        <input type="number" name="age1" id="age1" placeholder="Enter The New Age" class="form-control" value="{{ ag }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="username1">Username:</label>
+                        <input type="text" name="username1" id="username1" placeholder="Enter The New Username" class="form-control" value="{{ n }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="NatId1">National-ID:</label>
+                        <input type="text" name="NatId1" id="NatId1" placeholder="National-ID" class="form-control" value="{{ nid }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="address1">Address:</label>
+                        <input type="text" name="address1" id="address1" placeholder="Enter The New Address" class="form-control" value="{{ ad }}">
+                    </div>
+                         <p style="font-size: 19px;margin: 15px;margin-left: 30%">Blood type</p>
+
+                    <select name="blood" id="blood" style="margin-left: 30%;"><br>
+                        <option value="+A">+A</option>
+                        <option value="-A">-A</option>
+                        <option value="+B">+B</option>
+                        <option value="-B">-B</option>
+                        <option value="+AB">+AB</option>
+                        <option value="-AB">-AB</option>
+                        <option value="+O">+O</option>
+                        <option value="-O">-O</option>
+                    </select><br><br>
+
+                     
+                     <label for="Gender" style="margin-left: 30%;">Gender</label> <br>
+
+                    <label for="male" style="margin-left: 30%;">Male</label> 
+                     <input type="radio" id="gender" name="gender" value="male"  >	
+
+                    <label for="female" style="margin-left: 30%;">Female</label>
+                    <input type="radio" id="gender" name="gender" value="female"  >
+
+                                          
+                    <div class="form-group" style="text-align: center; color:rgb(0, 28, 65)">
+                        <p style="color: brown;">Do you have any of the following conditions ?</p>
+                        <label class="container">Cancer</label>
+                        <input type="checkbox" name="cancer" >
+                        
+                        <label class="container">Cardiac</label>
+                        <input type="checkbox" name="cardiac" >
+                                                        
+                        <label class="container">lung disease</label>
+                        <input type="checkbox" name="lungdisease" >     
+                                                            
+                        <label class="container">hepatitis B and C</label>
+                        <input type="checkbox" name="hepatitisBandC" >
+                        
+                        <label class="container">HIV infaction</label>
+                        <input type="checkbox" name="HIVinfaction">
+                        
+                        <label class="container">AIDS or Sexually Transmitted Diseases (STD)</label>
+                        <input type="checkbox" name="AIDSorSexually">
+                        
+                        <label class="container">Chronic alcoholism</label>
+                        <input type="checkbox" name="Chronicalcoholism">
+                            
+                        <label class="container"> Pregnancy</label>
+                        <input type="checkbox" name="Pregnancy">
+                        
+                        <label class="container">Acute fever</label>
+                        <input type="checkbox" name="Acutefever">
+                        
+                        <label class="container">Ear or body piercing and tattoing</label>
+                        <input type="checkbox" name="Earorbody">
+                    </div>
+                    <div class="form-group">
+                        <fieldset disabled="disabled">
+                            <label for="candonate">Can donate:</label>
+                            <input type="text" name="candonate" id="candonate" class="form-control" value="{{ don }}">
+                        </fieldset>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    {{error}}
+                </form>   
+
+                    </div>
+                    </div>
+                </div>
+
+            </div>				                            <script type="text/javascript"></script></body>
+
+           </html>
+        
